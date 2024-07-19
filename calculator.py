@@ -26,6 +26,9 @@ def abs(a):
 
 
 def mod(a, b):
+    if b == 0:
+         print('no')
+         return -1
     return a%b
 
 
