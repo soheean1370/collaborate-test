@@ -4,15 +4,18 @@ def add(a, b):
 
 
 def subtract(a, b):
-	pass
+	return a-b
 
 
 def multiply(a, b):
-    pass
+    return a*b
 
 
 def divide(a, b):
-    pass
+    if b == 0 :
+        print("can't divide 0!!!")
+        return None
+    return a/b
 
 
 def pow(a, b):
